@@ -1,0 +1,5 @@
+type: OreBlock
+itemDrop: sphalerite
+oreDefault: true
+hasColor: true
+mapColor: b8b4adff

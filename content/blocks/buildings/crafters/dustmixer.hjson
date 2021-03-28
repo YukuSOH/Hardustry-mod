@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Dust Mixer
+description: This facility produces BronzeDust.
+health: 200
+size: 2
+hasItems: true
+craftTime:720
+itemCapacity: 12
+consumes:{
+ items: {
+  items: [
+   tin-dust/1
+   copper-dust/3
+  ]
+ }
+}
+requirements: [
+ copper/75
+ mc/100
+ worker/30
+]
+category: crafting
+outputItem: bronze-dust/4
+canOverdrive: false
+mapColor: ffff00

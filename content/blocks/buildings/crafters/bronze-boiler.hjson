@@ -1,0 +1,32 @@
+outputLiquid: steam/108.0
+type: GenericSmelter
+name: Bronze Boiler
+description: This institution produces steam.
+health: 200
+size: 2
+hasItems: true
+itemCapacity:10
+hasLiquid: true
+liquidCapacity: 200
+craftTime: 120
+updateEffect: smeltsmoke
+consumes:{
+ power: 0.1
+ liquid: {
+  liquid: water
+  amount: 0.6
+ }
+ items: {
+  items: [
+   coal/1
+  ]
+ }
+}
+requirements: [
+ bronze-hull/1
+ mc/300
+ worker/15
+]
+category: crafting
+canOverdrive: false
+mapColor: ffff00

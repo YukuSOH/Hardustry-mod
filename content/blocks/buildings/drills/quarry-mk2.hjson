@@ -1,0 +1,18 @@
+type:Drill
+name: Quarry Mk2
+description: Quarry Mk2 (Tier1 Drill)
+size:2
+health: 50
+hasPower: false
+hasLiquids: false
+craftTime: 2160‬
+tier: 1
+itemCapacity: 15
+drillTime: 2160
+requirements: [
+  copper/150
+  mc/150
+  worker/100
+]
+category: production
+mapColor: ffff00

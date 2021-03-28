@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Tin Smelter
+description: This facility produces Tin.
+health: 200
+size: 2
+hasItems: true
+craftTime:540
+updateEffect: smeltsmoke
+itemCapacity: 4
+consumes:{
+ power: 0.3
+ items: {
+  items: [
+   coal/1
+   teallite/3
+  ]
+ }
+}
+requirements: [
+ copper/150
+ mc/200
+ worker/15
+]
+category: crafting
+outputItem: tin/3
+canOverdrive: false
+mapColor: ffff00

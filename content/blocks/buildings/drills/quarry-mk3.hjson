@@ -1,0 +1,18 @@
+type:Drill
+name: Quarry Mk3
+description: Quarry Mk3 (Tier1 Drill)
+health: 50
+size:2
+hasPower: false
+hasLiquids: false
+craftTime: 1620‬
+tier: 1
+itemCapacity: 20
+drillTime: 1620
+requirements: [
+  bronze/75
+  mc/300
+  worker/200
+]
+category: production
+mapColor: ffff00

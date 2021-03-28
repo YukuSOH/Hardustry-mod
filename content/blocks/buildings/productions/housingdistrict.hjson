@@ -1,0 +1,15 @@
+type: GenericCrafter
+name: Housing District
+description: House that gather workers.
+health: 50
+size: 1
+hasItems: true
+craftTime:7200
+itemCapacity: 10
+requirements: [
+ copper/5
+ mc/15
+]
+category: production
+outputItem: worker/1
+mapColor: ffff00

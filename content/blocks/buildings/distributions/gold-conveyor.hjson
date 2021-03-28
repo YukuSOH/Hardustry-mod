@@ -1,0 +1,12 @@
+type: Conveyor
+name: Gold Conveyor
+description: This conveyor is faster than Conveyor.
+health: 60
+hasItems: true
+itemCapacity: 6
+requirements: [
+ gold-plate/3
+]
+category: distribution
+speed: 0.05
+mapColor: ffff00

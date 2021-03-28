@@ -1,0 +1,21 @@
+type:Drill
+name: Mechanical Drill(Hardmode)
+description: When placed on ore, outputs items at a slow pace indefinitely. Only capable of mining basic resources.(It is not default.)
+health: 160
+size:2
+hasPower: true
+hasLiquids: false
+craftTime: 3600
+tier: 2
+itemCapacity: 10
+drillTime: 3600
+consumes:{
+ power: 0.3
+}
+requirements: [
+  copper/150
+  mc/175
+  worker/50
+]
+category: production
+mapColor: ffff00

@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: Developed Housing District
+description: A House that gathers some workers.
+health: 100
+size: 2
+hasItems: true
+hasPower: true
+craftTime:1200
+itemCapacity: 20
+consumes:{
+ power: 0.1
+ items: {
+  items: [
+   food/1
+  ]
+ }
+}
+requirements: [
+ copper/20
+ mc/30
+]
+category: production
+outputItem: worker/8
+mapColor: ffff00

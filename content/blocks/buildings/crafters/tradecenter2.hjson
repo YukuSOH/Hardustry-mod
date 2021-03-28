@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Trade Center(Copper)
+description: This facility trades Copper for MC.
+health: 400
+size: 2
+hasItems: true
+craftTime:900
+itemCapacity: 400
+consumes:{
+ power: 0.2
+ items: {
+  items: [
+   copper/150
+  ]
+ }
+}
+requirements: [
+ copper/175
+ mc/175
+ worker/15
+]
+category: crafting
+outputItem: mc/50
+canOverdrive: false
+mapColor: ffff00

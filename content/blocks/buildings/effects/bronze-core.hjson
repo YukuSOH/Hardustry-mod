@@ -1,0 +1,19 @@
+name: Bronze Core
+description: Bronze Core
+type: CoreBlock
+itemCapacity: 8000
+hasItems: true
+health: 2000
+consumesPower:false
+unitCapModifier: 4
+size: 4
+requirements: [
+ compressed-bronze-plate/1000
+ zinc/2000
+ copper/3000
+ lead/3000
+ tin/2000
+ mc/4000
+]
+category: effect
+mapColor: ffff00

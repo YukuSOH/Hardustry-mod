@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Iron Smelter
+description: This facility produces Iron.
+health: 600
+size: 2
+hasItems: true
+craftTime:1080
+updateEffect: smeltsmoke
+itemCapacity: 16
+consumes:{
+ power: 2.4
+ items: {
+  items: [
+   coal/1
+   hematite/3
+  ]
+ }
+}
+requirements: [
+ bronze-hull/1
+ copper/100
+ mc/400
+ worker/20
+]
+category: crafting
+outputItem: iron/2
+canOverdrive: false
+mapColor: ffff00

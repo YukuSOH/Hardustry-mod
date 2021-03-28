@@ -1,0 +1,4 @@
+type: Floor
+name: Clay Soil
+itemDrop: clay
+mapColor: 73758e

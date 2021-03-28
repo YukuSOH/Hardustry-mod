@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Bronze Smelter
+description: This facility makes Bronze from Copper and Tin.
+health: 200
+size: 2
+hasItems: true
+craftTime: 1200
+updateEffect: smeltsmoke
+itemCapacity: 8
+consumes:{
+ power: 0.6
+ items: {
+  items: [
+   coal/1
+   tin/2
+   copper/6
+  ]
+ }
+}
+requirements: [
+ bronze-hull/1
+ small-bronze-pipe/6
+ mc/400
+ worker/15
+]
+category: crafting
+outputItem: bronze/8
+canOverdrive: false
+mapColor: ffff00

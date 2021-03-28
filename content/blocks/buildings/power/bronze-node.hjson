@@ -1,0 +1,15 @@
+type: PowerNode
+name: BronzeNode
+description: BronzeNode
+size: 1
+requirements: [
+ bronze-plate/7
+ copper-wire/20
+ lead/10
+ mc/30
+]
+laserRange: 12
+maxNodes: 4
+health: 40
+category: power
+mapColor: ffff00

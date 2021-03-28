@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Furnace
+description: This facility produces firebrick.
+health: 200
+size: 2
+hasItems: true
+craftTime:600
+updateEffect: smeltsmoke
+itemCapacity: 8
+consumes:{
+ power: 0.4
+ items: {
+  items: [
+   clay/4
+   coal/1
+  ]
+ }
+}
+requirements: [
+ bronze-hull/1
+ copper/200
+ mc/200
+ worker/15
+]
+category: crafting
+outputItem: firebrick/2
+canOverdrive: false
+mapColor: ffff00

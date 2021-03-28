@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Brass Smelter
+description: This institution produces brass.
+health: 200
+size: 2
+hasItems: true
+craftTime:1200
+updateEffect: smeltsmoke
+itemCapacity: 8
+consumes:{
+ power: 0.6
+ items: {
+  items: [
+   coal/1
+   zinc/2
+   copper/6
+  ]
+ }
+}
+requirements: [
+ bronze/150
+ copper/120
+ mc/400
+ worker/15
+]
+category: crafting
+outputItem: brass/8
+canOverdrive: false
+mapColor: ffff00

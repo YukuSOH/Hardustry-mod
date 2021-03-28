@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: CokeOvenBricks Factory
+description: This facility produces CokeOvenBricks
+health: 300
+size: 2
+hasItems: true
+craftTime: 300
+updateEffect: smeltsmoke
+itemCapacity: 30
+consumes:{
+ power: 0.4
+ items: {
+  items: [
+   cokeovenbrick/20
+  ]
+ }
+}
+requirements: [
+ bronze-hull/1
+ bronze/100
+ mc/200
+ worker/20
+]
+category: crafting
+outputItem: cokeovenbricks/1
+canOverdrive: false
+mapColor: ffff00

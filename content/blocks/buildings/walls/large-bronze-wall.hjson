@@ -1,0 +1,11 @@
+type: Wall
+name: Large Bronze Wall
+description: Large Bronze Wall
+size:2
+health: 1700
+requirements: [
+     compressed-bronze-plate/20
+     mc/60
+]
+category:defense
+mapColor: ffff00

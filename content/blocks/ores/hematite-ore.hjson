@@ -1,0 +1,5 @@
+type: OreBlock
+itemDrop: hematite
+oreDefault: true
+hasColor: true
+mapColor: 912600ff

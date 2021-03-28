@@ -1,0 +1,12 @@
+type:Wall
+name: Bronze Wall
+description: Bronze wall
+requirements: [
+     bronze/20
+     mc/45
+]
+health: 425
+size:1
+category:defense
+craftTime: 160
+mapColor: ffff00

@@ -1,0 +1,19 @@
+type: Drill
+name: Quarry Mk4
+description: Quarry Mk4 (Tier1 Drill)
+health: 50
+size:2
+hasPower: false
+hasLiquids: false
+craftTime: 1215‬
+tier: 1
+itemCapacity: 25
+drillTime: 1215
+requirements: [
+  iron/75
+  item-gold/25
+  mc/600
+  worker/400
+]
+category: production
+mapColor: ffff00

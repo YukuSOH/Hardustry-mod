@@ -1,0 +1,16 @@
+type: LiquidRouter
+name: Bronze Tank
+description: Bronze Tank
+health: 500
+size: 3
+hasLiquids: true
+update: true
+outputsLiquid: true
+liquidCapacity: 250
+consumeLiquid: true
+requirements: [
+ bronze-plate/25
+ metaglass/25
+]
+category: liquid
+mapColor: ffff00

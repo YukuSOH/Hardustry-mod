@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Bronze Press
+description: This facility produces BronzePlate.
+health: 200
+size: 2
+hasItems: true
+craftTime: 600
+updateEffect: smeltsmoke
+itemCapacity: 4
+consumes:{
+ power: 0.4
+ items: {
+  items: [
+   bronze/3
+  ]
+ }
+}
+requirements: [
+ bronze/120
+ mc/300
+ worker/15
+]
+category: crafting
+outputItem: bronze-plate/2
+canOverdrive: false
+mapColor: ffff00

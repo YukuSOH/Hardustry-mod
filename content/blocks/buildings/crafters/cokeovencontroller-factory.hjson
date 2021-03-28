@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: CokeOvenController Factory
+description: This facility produces CokeOvenController
+health: 300
+size: 2
+hasItems: true
+craftTime: 300
+updateEffect: smeltsmoke
+itemCapacity: 30
+consumes:{
+ power: 0.4
+ items: {
+  items: [
+   cokeovenbricks/40
+   iron-plate/40
+  ]
+ }
+}
+requirements: [
+ bronze-hull/1
+ bronze/100
+ mc/200
+ worker/20
+]
+category: crafting
+outputItem: cokeovencontroller/1
+canOverdrive: false
+mapColor: ffff00

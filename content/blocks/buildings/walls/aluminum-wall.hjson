@@ -1,0 +1,12 @@
+type:Wall
+name: Aluminum Wall
+description: Aluminum wall
+requirements: [
+     aluminum/20
+     mc/60
+]
+health: 550
+size:1
+category:defense
+craftTime: 160
+mapColor: ffff00

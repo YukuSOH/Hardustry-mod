@@ -1,0 +1,11 @@
+type: Wall
+name: Large Aluminum Wall
+description: Large Aluminum Wall
+size:2
+health: 2200
+requirements: [
+     compressed-aluminum-plate/20
+     mc/60
+]
+category:defense
+mapColor: ffff00

@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Zinc Smelter
+description: This facility produces zinc.
+health: 200
+size: 2
+hasItems: true
+craftTime:540
+updateEffect: smeltsmoke
+itemCapacity: 6
+consumes:{
+ power: 0.3
+ items: {
+  items: [
+   coal/1
+   sphalerite/3
+  ]
+ }
+}
+requirements: [
+ bronze/150
+ mc/200
+ worker/15
+]
+category: crafting
+outputItem: sphalerite/3
+canOverdrive: false
+mapColor: ffff00

@@ -1,0 +1,5 @@
+type: material
+name: CokeOvenController
+description: CokeOvenController
+cost: 80.0
+color: efdfd4

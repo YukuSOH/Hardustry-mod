@@ -1,0 +1,22 @@
+type:Drill
+name: Bronze Drill Mk2
+description: Tier3 Drill.
+health: 200
+size:2
+hasPower: true
+hasLiquids: false
+craftTime: 2700
+tier: 3
+itemCapacity: 20
+drillTime: 2700
+consumes:{
+ power: 4.8
+}
+requirements: [
+  bronze-drillpart/1
+  steel/100
+  100mc/8
+  worker/100
+]
+category: production
+mapColor: ffff00
