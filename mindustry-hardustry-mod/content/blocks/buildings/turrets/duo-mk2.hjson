@@ -1,0 +1,48 @@
+type: ItemTurret
+name: Duo Mk2
+description: Duo Mk2
+health: 400
+size: 1
+reloadTime: 30
+targetAir:true
+targetGround:true
+range: 120
+craftTime: 30
+inaccuracy: 1.8
+rotatespeed: 100
+shots:1
+solid: true
+ammoTypes: {
+ copper: {
+  speed: 3
+  damage: 12
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 2
+ }
+ bronze: {
+  speed: 3
+  damage: 20
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 2
+ }
+ graphite: {
+  speed: 3
+  damage: 30
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 4
+  reloadMultiplier: 1.5
+ }
+}
+requirements: [
+ bronze/120
+ tin/100
+ mc/200
+ worker/15
+ metaglass/10
+]
+canOverdrive: false
+category: turret
+mapColor: ffff00

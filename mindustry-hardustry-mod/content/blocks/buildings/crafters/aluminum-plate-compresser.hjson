@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Aluminum Plate Compresser
+description: This facility produces CompressedAluminumPlate.
+health: 300
+size: 2
+hasItems: true
+craftTime:300
+updateEffect: smeltsmoke
+itemCapacity: 16
+consumes:{
+ power: 0.8
+ items: {
+  items: [
+   aluminum-plate/4
+  ]
+ }
+}
+requirements: [
+ aluminum/30
+ aluminum-plate/5
+ mc/400
+ worker/15
+]
+category: crafting
+outputItem: compressed-aluminum-plate/1
+canOverdrive: false
+mapColor: ffff00ff

@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Bronze Furnace
+description: This facility makes bronze from BronzeDust.
+health: 200
+size: 2
+hasItems: true
+craftTime:720
+updateEffect: smeltsmoke
+itemCapacity: 8
+consumes:{
+ power: 0.4
+ items: {
+  items: [
+   bronze-dust/4
+   coal/2
+  ]
+ }
+}
+requirements: [
+ copper/150
+ mc/120
+ worker/10
+]
+category: crafting
+outputItem: bronze/4
+canOverdrive: false
+mapColor: ffff00

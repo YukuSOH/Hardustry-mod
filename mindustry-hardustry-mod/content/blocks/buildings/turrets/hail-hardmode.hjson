@@ -1,0 +1,35 @@
+type: ItemTurret
+name: Hail (Hardmode)
+description: Fires small shells at ground enemies over long distances.(It is not default.)
+health: 250
+size: 1
+reloadTime: 105
+targetAir: false
+targetGround: true
+range: 200
+craftTime: 90
+inaccuracy: 1.0
+rotatespeed: 50
+shots:2
+solid: true
+ammoTypes: {
+ copper: {
+  type: MissileBulletType
+  speed: 1
+  shootEffect: shootBig2
+  smokeEffect: shootBigSmoke2
+  knockback:0.5
+  splashDamage:30
+  splashDamageRadius:26
+  ammoMultiper: 2
+ }
+}
+requirements: [
+ steel/200
+ lead/100
+ metaglass/20
+ mc/400
+ worker/10
+]
+category: turret
+mapColor: ffff00

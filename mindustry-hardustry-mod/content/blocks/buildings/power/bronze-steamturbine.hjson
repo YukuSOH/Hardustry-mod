@@ -1,0 +1,34 @@
+type: SingleTypeGenerator
+itemDuration: 1200
+itemCapacity: 50
+liquidCapacity: 100
+name: Bronze Steam Turnbine
+description: A generator that produces power from Steam.
+size: 2
+hasPower: true
+hasItems: false
+hasLiquids: true
+canOverdrive: false
+outputPower: true‬
+powerProduction: 5.0
+generateEffect: generatespark
+consumes:{
+ items: {
+  items: [
+   mc/1
+  ]
+ }
+ liquid: {
+  liquid: steam
+  amount: 0.4
+ }
+}
+requirements: [
+ bronze-hull/1
+ bronze-plate/20
+ worker/15
+ mc/200
+]
+category: power
+health: 200
+mapColor: ffff00

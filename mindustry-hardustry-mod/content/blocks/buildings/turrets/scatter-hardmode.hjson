@@ -1,0 +1,35 @@
+type: ItemTurret
+name: Scatter (Hardmode)
+description: Fires alternating bullets at enemies.(It is not default.)
+health: 500
+size: 2
+reloadTime: 10
+targetAir:true
+targetGround: false
+range: 160
+craftTime: 15
+inaccuracy: 17.0
+rotatespeed: 200
+shots:1
+solid: true
+ammoTypes: {
+ lead: {
+  speed: 4
+  damage: 2
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  splashDamage:30
+  splashDamageRadius:32
+  ammoMultiper: 4
+ }
+}
+requirements: [
+ steel/150
+ steel-plate/30
+ metaglass/20
+ lead/100
+ 100mc/4
+ worker/10
+]
+category: turret
+mapColor: ffff00

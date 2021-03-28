@@ -1,0 +1,6 @@
+type: material
+name: Gold Ore
+description: Gold Ore
+cost: 0.1
+hardness: 3
+color: e8e400

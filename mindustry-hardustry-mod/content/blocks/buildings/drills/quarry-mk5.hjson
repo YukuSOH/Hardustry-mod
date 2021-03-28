@@ -1,0 +1,18 @@
+type: Drill
+name: Quarry Mk5
+description: Quarry Mk5 (Tier1 Drill)
+health: 50
+size:2
+hasPower: false
+hasLiquids: false
+craftTime: 910‬
+tier: 1
+itemCapacity: 30
+drillTime: 910
+requirements: [
+  steel/100
+  100mc/12
+  worker/800
+]
+category: production
+mapColor: ffff00

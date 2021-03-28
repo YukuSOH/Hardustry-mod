@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: CoinChanger MC into 100MC
+description: This institution produce 100MC.
+health: 300
+size: 2
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+itemCapacity: 400
+consumes:{
+ items: {
+  items: [
+   mc/100
+  ]
+ }
+}
+requirements: [
+ bronze-plate/100
+ mc/200
+ worker/20
+]
+category: crafting
+outputItem: 100mc/01
+canOverdrive: false
+mapColor: ffff00

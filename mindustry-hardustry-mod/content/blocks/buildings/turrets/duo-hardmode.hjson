@@ -1,0 +1,32 @@
+type: ItemTurret
+name: Duo (Hardmode)
+description: Fires alternating bullets at enemies.(It is not default.)
+health: 250
+size: 1
+reloadTime: 35
+targetAir:true
+targetGround:true
+range: 100
+craftTime: 30
+inaccuracy: 2.0
+rotatespeed: 100
+shots:1
+solid: true
+ammoTypes: {
+ copper: {
+  speed: 2
+  damage: 9
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiper: 2
+ }
+}
+requirements: [
+ copper/200
+ lead/100
+ mc/100
+ worker/10
+]
+canOverdrive: false
+category: turret
+mapColor: ffff00

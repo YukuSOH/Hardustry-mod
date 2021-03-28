@@ -1,0 +1,16 @@
+type: LiquidRouter
+name: Steel Tank
+description: Steel Tank
+health: 1000
+size: 3
+hasLiquids: true
+update: true
+outputsLiquid: true
+liquidCapacity: 500
+consumeLiquid: true
+requirements: [
+ steel-plate/25
+ metaglass/25
+]
+category: liquid
+mapColor: ffff00

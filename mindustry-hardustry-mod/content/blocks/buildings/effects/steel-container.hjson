@@ -1,0 +1,13 @@
+name: Steel Container
+description: Steel Container
+type: StorageBlock
+itemCapacity: 500
+hasItems: true
+health: 1000
+consumesPower:false
+size: 2
+requirements: [
+ steel-plate/100
+]
+category: effect
+mapColor: ffff00

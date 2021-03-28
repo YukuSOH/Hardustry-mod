@@ -1,0 +1,5 @@
+type: OreBlock
+itemDrop: bauxite
+oreDefault: true
+hasColor: true
+mapColor: e3bd00ff

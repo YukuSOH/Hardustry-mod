@@ -1,0 +1,18 @@
+type: Pump
+name: Bronze Pump
+description: Bronze Pump.
+health: 100
+size: 1
+hasLiquids: true
+liquidCapacity: 10
+pumpAmount: 0.1
+consumes: {
+ power:0.2
+}
+requirements: [
+ bronze/30
+ mc/150
+ worker/5
+]
+category: liquid
+mapColor: ffff00

@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: BronzeDrillPart Factory
+description: This institution produces BronzeDrillPart
+health: 300
+size: 2
+hasItems: true
+craftTime: 1200
+updateEffect: smeltsmoke
+itemCapacity: 120
+consumes:{
+ power: 0.4
+ items: {
+  items: [
+   bronze/150
+  ]
+ }
+}
+requirements: [
+ bronze-hull/1
+ mc/200
+ worker/20
+]
+category: crafting
+outputItem: bronze-drillpart/1
+canOverdrive: false
+color: ffff00

@@ -1,0 +1,12 @@
+type:Wall
+name: Steel Wall
+description: Steel wall
+requirements: [
+     aluminum/20
+     mc/60
+]
+health: 600
+size:1
+category: defense
+craftTime: 160
+mapColor: ffff00

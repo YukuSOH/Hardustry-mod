@@ -1,0 +1,7 @@
+name: Steam
+description: Steam is used for generating power. You need a steam boiler (ex. BronzeSteamBoiler) to produce steam.
+temperature: 0.8
+viscosity: 0
+heatCapacity: 1.5
+effect: wet
+color: 9cc3b7

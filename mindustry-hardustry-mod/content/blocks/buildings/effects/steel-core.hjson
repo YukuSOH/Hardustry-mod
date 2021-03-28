@@ -1,0 +1,19 @@
+name: Steel Core
+description: Steel Core
+type: CoreBlock
+itemCapacity: 12000
+hasItems: true
+health: 3000
+consumesPower:false
+unitCapModifier: 4
+size: 5
+requirements: [
+ compressed-steel-plate/4000
+ iron-plate/6000
+ bronze-plate/6000
+ gold-plate/6000
+ brass/4000
+ 100mc/80
+]
+category: effect
+mapColor: ffff00

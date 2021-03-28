@@ -1,0 +1,20 @@
+type: GenericCrafter
+name: Small Farmland
+description: A farmland that produces some foods.
+health: 50
+size: 2
+hasItems: true
+hasPower: true
+itemCapacity: 8
+craftTime:60
+consumes:{
+ power: 0.1
+}
+requirements: [
+ copper/5
+ mc/40
+ worker/5
+]
+category: production
+outputItem: food/3
+mapColor: ffff00

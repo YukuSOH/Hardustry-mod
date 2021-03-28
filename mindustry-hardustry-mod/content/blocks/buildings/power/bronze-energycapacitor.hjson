@@ -1,0 +1,18 @@
+type: Battery
+name: Bronze Energy Capacitor
+description: BronzeEnergyCapacitor
+size: 2
+hasPower: true
+outputsPower: true
+requirements: [
+  bronze/20
+  lead/20
+  mc/60
+  battery-grade1/10
+]
+category: power
+health:200
+consumes: {
+ powerBuffered: 8000.0
+}
+mapColor: ffff00

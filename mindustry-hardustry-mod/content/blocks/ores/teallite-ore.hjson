@@ -1,0 +1,5 @@
+type: OreBlock
+itemDrop: teallite
+oreDefault: true
+hasColor: true
+mapColor: e4cbb9ff

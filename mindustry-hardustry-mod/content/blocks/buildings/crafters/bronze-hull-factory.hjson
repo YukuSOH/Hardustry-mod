@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: BronzeHull Factory
+description: This facility produces BronzeHull
+health: 300
+size: 2
+hasItems: true
+craftTime: 1200
+updateEffect: smeltsmoke
+itemCapacity: 120
+consumes:{
+ power: 0.4
+ items: {
+  items: [
+   bronze-plate/60
+   brass-plate/20
+  ]
+ }
+}
+requirements: [
+ bronze/150
+ mc/200
+ worker/20
+]
+category: crafting
+outputItem: bronze-hull/1
+canOverdrive: false
+mapColor: ffff00

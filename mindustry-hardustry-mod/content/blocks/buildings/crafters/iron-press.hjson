@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Iron Press
+description: This facility produces IronPlate.
+health: 200
+size: 2
+hasItems: true
+craftTime:300
+updateEffect: smeltsmoke
+itemCapacity: 4
+consumes:{
+ power: 1.6
+ items: {
+  items: [
+   iron/1
+  ]
+ }
+}
+requirements: [
+ bronze-hull/1
+ bronze-piston/2
+ small-bronze-pipe/6
+ iron/60
+ mc/400
+ worker/15
+]
+category: crafting
+outputItem: iron-plate/1
+canOverdrive: false
+mapColor: ffff00

@@ -1,0 +1,37 @@
+type: LiquidTurret
+name: Wave Mk2
+description: Wave Mk2
+health: 400
+size: 2
+consumes:{
+ power: 0.4
+}
+reloadTime: 2
+targetAir: true
+targetGround:true
+range: 130
+craftTime: 3
+inaccuracy: 4
+rotatespeed: 70
+shots:1
+solid: true
+ammoTypes: {
+ water: {
+  type: LiquidBulletType
+  liquid: water
+  speed: 3
+  knockback:0.7
+  shootEffect: none
+  smokeEffect: none
+  status: wet
+ }
+}
+requirements: [
+ steel-plate/120
+ lead/60
+ 100mc/6
+ worker/30
+ metaglass/40
+]
+category: turret
+mapColor: ffff000

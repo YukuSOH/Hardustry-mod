@@ -1,0 +1,5 @@
+type: material
+name: Gold
+description: Gold
+cost: 0.5
+color: ebeb15

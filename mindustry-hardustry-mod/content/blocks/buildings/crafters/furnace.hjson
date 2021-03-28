@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Furnace
+description: This facility produces clay.
+health: 200
+size: 2
+hasItems: true
+craftTime:600
+updateEffect: smeltsmoke
+itemCapacity: 8
+consumes:{
+ power: 0.4
+ items: {
+  items: [
+   clay/4
+   coal/1
+  ]
+ }
+}
+requirements: [
+ bronze-hull/1
+ copper/200
+ mc/120
+ worker/10
+]
+category: crafting
+outputItem: cokeovenbrick/4
+canOverdrive: false
+mapColor: ffff00

@@ -1,0 +1,21 @@
+type:Drill
+name: Mechanical Drill Mk2
+description: Mechanical Drill Mk2 (Tier2 Drill)
+health: 160
+size:2
+hasPower: true
+hasLiquids: false
+craftTime: 2340
+tier: 2
+itemCapacity: 20
+drillTime: 2592
+consumes:{
+ power: 0.6
+}
+requirements: [
+  bronze/150
+  mc/400
+  worker/100
+]
+category: production
+mapColor: ffff00

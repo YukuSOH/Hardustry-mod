@@ -1,0 +1,17 @@
+type: Battery
+name: Battery(Hardmode)
+description: Stores power in times of surplus energy. Outputs power in times of deficit.(It is not default.)
+size: 1
+hasPower: true
+outputsPower: true
+requirements: [
+  copper/5
+  lead/20
+  mc/30
+]
+category: power
+health:40
+consumes: {
+ powerBuffered: 1000.0
+}
+mapColor: ffff00

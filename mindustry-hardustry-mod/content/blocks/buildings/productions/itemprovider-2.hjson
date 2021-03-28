@@ -1,0 +1,17 @@
+type: GenericCrafter
+name: itemprovider2
+description: itemprovider
+health: 5000
+size: 2
+hasItems: true
+hasPower: true
+itemCapacity: 3000
+craftTime: 108000
+requirements: [
+ copper/5
+ mc/40
+ worker/5
+]
+category: production
+outputItem: mc/2000
+mapColor: ffff00

@@ -1,0 +1,23 @@
+type:Drill
+name: Mechanical Drill Mk3
+description: Mechanical Drill Mk3 (Tier2 Drill)
+health: 160
+size:2
+hasPower: true
+hasLiquids: false
+craftTime: 1521
+tier: 2
+itemCapacity: 30
+drillTime: 1521
+consumes:{
+ power: 1.2
+}
+requirements: [
+ iron/150
+ item-gold/50
+ graphite/20
+ mc/800
+ worker/200
+]
+category: production
+mapColor: ffff00

@@ -1,0 +1,5 @@
+type: material
+name: Bronze
+description: Bronze
+cost: 0.7
+color: ff5200

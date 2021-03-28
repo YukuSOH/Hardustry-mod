@@ -1,0 +1,13 @@
+name: Bronze Container
+description: Bronze Container
+type: StorageBlock
+itemCapacity: 200
+hasItems: true
+health: 500
+consumesPower:false
+size: 2
+requirements: [
+ bronze-plate/100
+]
+category: effect
+mapColor: ffff00

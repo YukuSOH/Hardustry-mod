@@ -1,0 +1,16 @@
+type: LiquidRouter
+name: Aluminum Tank
+description: Aluminum Tank
+health: 1200
+size: 3
+hasLiquids: true
+update: true
+outputsLiquid: true
+liquidCapacity: 500
+consumeLiquid: true
+requirements: [
+ aluminum-plate/25
+ metaglass/25
+]
+category: liquid
+mapColor: ffff00

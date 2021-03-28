@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Copper Crusher
+description: This facility produces CopperDust.
+health: 200
+size: 2
+hasItems: true
+craftTime: 900
+updateEffect: smeltsmoke
+itemCapacity: 10
+consumes:{
+ power: 0.2
+ items: {
+  items: [
+   copper/1
+  ]
+ }
+}
+requirements: [
+ copper/200
+ mc/150
+ worker/10
+]
+category: crafting
+outputItem: copper-dust/1
+canOverdrive: false
+mapColor: ffff00

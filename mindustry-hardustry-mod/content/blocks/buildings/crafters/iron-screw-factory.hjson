@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: IronScrew Factory
+description: This institution produce IronScrew.
+health: 300
+size: 2
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+itemCapacity: 120
+consumes:{
+ power: 0.4
+ items: {
+  items: [
+   iron-bolt/2
+  ]
+ }
+}
+requirements: [
+ bronze-hull/1
+ iron/50
+ mc/200
+ worker/20
+]
+category: crafting
+outputItem: iron-screw/1
+canOverdrive: false
+mapColor: ffff00

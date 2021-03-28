@@ -1,0 +1,16 @@
+type: SolarGenerator
+name: WindPower Generator
+description: This generator produces a little power from wind.
+size: 2
+hasPower: true
+powerProduction: 0.2
+requirements: [
+ copper/40
+ lead/30
+ worker/10
+ mc/50
+]
+category: power
+health: 100
+canOverdrive: false
+mapColor: ffff00
