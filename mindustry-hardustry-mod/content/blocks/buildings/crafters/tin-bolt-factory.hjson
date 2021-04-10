@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: TinBolt Factory
+description: This institution produce TinBolt.
+health: 300
+size: 2
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+itemCapacity: 120
+consumes:{
+ power: 0.8
+ items: {
+  items: [
+   tin-rod/1
+  ]
+ }
+}
+requirements: [
+ low-machine-hull/1
+ steel/100
+ iron-sawblade/1
+ 100mc/5
+ worker/25
+]
+category: crafting
+outputItem: tin-bolt/2
+canOverdrive: false
+mapColor: ffff00

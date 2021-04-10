@@ -11,7 +11,7 @@ consumes:{
  power: 1.6
  items: {
   items: [
-   iron/1
+   item-gold/3
   ]
  }
 }
@@ -24,6 +24,6 @@ requirements: [
  worker/20
 ]
 category: crafting
-outputItem: gold-plate/1
+outputItem: gold-plate/2
 canOverdrive: false
 mapColor: ffff00

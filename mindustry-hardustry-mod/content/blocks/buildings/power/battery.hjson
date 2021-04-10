@@ -1,0 +1,9 @@
+name: Battery(Hardmode)
+requirements: [
+  copper/5
+  lead/20
+  mc/30
+]
+consumes: {
+ powerBuffered: 1000.0
+}

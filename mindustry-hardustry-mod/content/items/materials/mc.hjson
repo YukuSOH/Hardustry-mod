@@ -3,3 +3,5 @@ name: MC
 description: Mindustry Coin
 cost: 0.2
 color: ffee03
+research: copper
+researchCostMultiplier: 0.0

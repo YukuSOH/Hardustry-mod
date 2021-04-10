@@ -1,0 +1,9 @@
+name: PowerNode(Hardmode)
+requirements: [
+ copper/7
+ lead/5
+ mc/10
+]
+laserRange: 6
+maxNodes: 4
+health: 40

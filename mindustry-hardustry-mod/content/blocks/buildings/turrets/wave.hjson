@@ -1,0 +1,30 @@
+name: Wave (Hardmode)
+health: 400
+consumes:{
+ power: 0.2
+}
+reloadTime: 3
+range: 110
+craftTime: 3
+inaccuracy: 5
+rotatespeed: 60
+shots:1
+solid: true
+ammoTypes: {
+ water: {
+  type: LiquidBulletType
+  liquid: water
+  speed: 2
+  knockback:0.5
+  shootEffect: none
+  smokeEffect: none
+  status: wet
+ }
+}
+requirements: [
+ bronze-plate/120
+ lead/60
+ mc/300
+ worker/15
+ metaglass/40
+]

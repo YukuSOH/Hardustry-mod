@@ -13,3 +13,5 @@ requirements: [
 category: production
 outputItem: worker/1
 mapColor: ffff00
+research: core-shard
+researchCostMultiplier: 0.0

@@ -2,6 +2,6 @@ name: "hardustry-mod"
 displayName: "Hardustry"
 author: "YukuSOH"
 description: "This mod make this game difficult."
-version: "0.112"
+version: "0.114dev"
 minGameVersion: "126.1"
 hidden: false

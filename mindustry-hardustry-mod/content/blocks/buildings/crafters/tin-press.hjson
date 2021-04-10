@@ -1,29 +1,28 @@
 type: GenericCrafter
-name: Iron Press
-description: This facility produces IronPlate.
+name: Tin Press
+description: This institution produces TinPlate.
 health: 200
 size: 2
 hasItems: true
-craftTime:300
+craftTime: 1800
 updateEffect: smeltsmoke
-itemCapacity: 4
+itemCapacity: 8
 consumes:{
- power: 1.6
+ power: 0.8
  items: {
   items: [
-   iron/3
+   tin/3
   ]
  }
 }
 requirements: [
- bronze-hull/1
+ steel-plate/100
+ low-machine-hull/1
  bronze-piston/2
- small-bronze-pipe/6
- iron/60
- mc/400
- worker/15
+ 100mc/5
+ worker/25
 ]
 category: crafting
-outputItem: iron-plate/2
+outputItem: tin-plate/2
 canOverdrive: false
 mapColor: ffff00

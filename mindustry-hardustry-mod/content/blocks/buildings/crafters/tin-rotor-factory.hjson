@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: TinRotor Factory
+description: This institution produce TinRotor.
+health: 300
+size: 2
+hasItems: true
+craftTime: 1200
+updateEffect: smeltsmoke
+itemCapacity: 120
+consumes:{
+ power: 0.8
+ items: {
+  items: [
+   tin-plate/40
+   tin-ring/10
+   tin-screw/10
+  ]
+ }
+}
+requirements: [
+ low-machine-hull/1
+ iron/100
+ 100mc/5
+ worker/25
+]
+category: crafting
+outputItem: tin-rotor/1
+canOverdrive: false
+mapColor: ffff00

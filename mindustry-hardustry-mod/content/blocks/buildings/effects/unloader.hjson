@@ -1,0 +1,6 @@
+name: Unloader(Hardmode)
+requirements: [
+ copper/10
+ mc/30
+]
+health: 70

@@ -1,0 +1,13 @@
+name: Mechanical Drill(Hardmode)
+health: 160
+tier: 2
+drillTime: 3600
+hasPower: true
+consumes:{
+ power: 0.3
+}
+requirements: [
+  copper/150
+  mc/175
+  worker/50
+]

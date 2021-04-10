@@ -1,6 +1,6 @@
 type: ItemTurret
-name: Duo Mk2
-description: Duo Mk2
+name: Duo Mk3
+description: Duo Mk3
 health: 400
 size: 1
 reloadTime: 27

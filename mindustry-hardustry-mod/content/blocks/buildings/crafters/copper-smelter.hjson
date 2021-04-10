@@ -23,7 +23,7 @@ requirements: [
 ]
 category: crafting
 results: [
- lead/2
+ copper/2
  zinc/1
 ]
 canOverdrive: false
