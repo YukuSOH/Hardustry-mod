@@ -10,4 +10,10 @@ Step3: Make Bronzehull.
 Step4: Build Kiln.  
 But Kiln makes 1 metaglass from 5 sands, 5 leads, and 1 coal over 15 seconds.  
 
+## AddedItems  
+![hardustry](https://user-images.githubusercontent.com/80609135/114300511-9a3ba100-9afb-11eb-8475-d3f19adef283.jpg)
+
+## AddedBuildings
+
+
 ### Official Twitter: https://twitter.com/hardustry
