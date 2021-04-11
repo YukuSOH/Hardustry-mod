@@ -13,7 +13,7 @@ But Kiln makes 1 metaglass from 5 sands, 5 leads, and 1 coal over 15 seconds.
 ## AddedItems  
 ![hardustry](https://user-images.githubusercontent.com/80609135/114300511-9a3ba100-9afb-11eb-8475-d3f19adef283.jpg)
 
-## AddedBuildings
-
+## AddedBuildings  
+![hardustry](https://user-images.githubusercontent.com/80609135/114300672-63b25600-9afc-11eb-9311-6c0a9f7c4389.jpg)
 
 ### Official Twitter: https://twitter.com/hardustry
