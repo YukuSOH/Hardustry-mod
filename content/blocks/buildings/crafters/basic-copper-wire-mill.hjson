@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: BasicCopperWireMill
+description: This facility produces CopperWire.
+health: 200
+size: 2
+hasItems: true
+craftTime: 120
+itemCapacity: 12
+consumes:{
+ power: 0.8
+ items: {
+  items: [
+   copper/1
+  ]
+ }
+}
+requirements: [
+ low-electric-motor/40
+ tin-wire/20
+ integrated-logic-circuit/20
+ low-machine-hull/1
+ 100mc/5
+ worker/25
+]
+category: crafting
+outputItem: copper-wire/2
+canOverdrive: false
+mapColor: ffff00

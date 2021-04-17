@@ -1,0 +1,15 @@
+type: PowerNode
+name: SteelNode
+description: SteelNode
+size: 1
+requirements: [
+ steel-plate/7
+ copper-wire/30
+ lead/10
+ mc/40
+]
+laserRange: 18
+maxNodes: 4
+health: 40
+category: power
+mapColor: ffff00

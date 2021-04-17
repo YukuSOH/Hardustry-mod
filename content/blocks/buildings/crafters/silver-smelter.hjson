@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Silver Smelter
+description: This facility produces Silver.
+health: 600
+size: 2
+hasItems: true
+craftTime:360
+updateEffect: smeltsmoke
+itemCapacity: 16
+consumes:{
+ power: 5.4
+ items: {
+  items: [
+   coal/1
+   galena/3
+  ]
+ }
+}
+requirements: [
+ low-machine-hull/1
+ steel/100
+ 100mc/8
+ worker/25
+]
+category: crafting
+outputItem: silver/3
+canOverdrive: false
+mapColor: ffff00

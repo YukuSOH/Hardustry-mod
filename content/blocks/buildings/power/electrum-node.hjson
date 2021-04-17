@@ -1,0 +1,15 @@
+type: PowerNode
+name: ElectrumNode
+description: ElectrumNode
+size: 1
+requirements: [
+ electrum/15
+ copper-wire/40
+ lead/20
+ mc/50
+]
+laserRange: 5
+maxNodes: 10
+health: 40
+category: power
+mapColor: ffff00

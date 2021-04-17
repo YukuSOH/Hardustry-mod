@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: LowElectricMotor Factory
+description: This institution produce LowElectricMotor.
+health: 300
+size: 2
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+itemCapacity: 120
+consumes:{
+ power: 0.8
+ items: {
+  items: [
+   copper-wire/4
+   iron-rod/2
+   tin-wire/2
+   magnetic-iron-rod/1
+  ]
+ }
+}
+requirements: [
+ low-machine-hull/1
+ iron/50
+ 100mc/5
+ worker/25
+]
+category: crafting
+outputItem: low-electric-motor/1
+canOverdrive: false
+mapColor: ffff00

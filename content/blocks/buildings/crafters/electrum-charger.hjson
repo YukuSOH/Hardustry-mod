@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Electrum Charger
+description: Electrum Charger
+health: 300
+size: 2
+hasItems: true
+craftTime: 1200
+itemCapacity: 10
+consumes: {
+ power: 2.0
+ items: {
+  items: [
+   electrum/1
+  ]
+ }
+}
+requirements: [
+ low-machine-hull/1
+ tin-wire/50
+ worker/10
+]
+category: crafting
+outputItem: charged-electrum/1
+canOverdrive: false
+mapColor: ffff00

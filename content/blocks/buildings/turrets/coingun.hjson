@@ -1,0 +1,51 @@
+type: ItemTurret
+name: CoinGun
+description: Coingun
+health: 400
+size: 1
+reloadTime: 5
+targetAir:true
+targetGround:true
+range: 100
+craftTime: 30
+inaccuracy: 1.5
+shootSound: coingun
+rotatespeed: 100
+shots:1
+solid: true
+ammoTypes: {
+ mc: {
+  type: BasicBulletType
+  lifetime: 20
+  speed: 6
+  damage: 2
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  sprite: hardustry-mod-coin
+  width: 5.0
+  height: 5.0
+  ammoMultiplier: 10
+ }
+ 100mc: {
+  type: BasicBulletType
+  lifetime: 20
+  speed: 6
+  damage: 8
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  sprite: hardustry-mod-coin2
+  width: 5.0
+  height: 5.0
+  reloadMultiplier: 1.5
+  ammoMultiplier: 5
+ }
+}
+requirements: [
+ bronze/100
+ tin/75
+ mc/200
+ worker/15
+]
+canOverdrive: false
+category: turret
+mapColor: ffff00

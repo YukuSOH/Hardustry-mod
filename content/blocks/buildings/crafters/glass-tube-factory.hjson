@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: GlassTube Factory
+description: This institution produce GlassTube.
+health: 300
+size: 2
+hasItems: true
+craftTime: 300
+updateEffect: smeltsmoke
+itemCapacity: 120
+consumes:{
+ power: 0.8
+ items: {
+  items: [
+   glass-dust/10
+   coal/1
+  ]
+ }
+}
+requirements: [
+ low-machine-hull/1
+ iron-plate/50
+ 100mc/5
+ worker/25
+]
+category: crafting
+outputItem: glass-tube/1
+canOverdrive: false
+mapColor: ffff00

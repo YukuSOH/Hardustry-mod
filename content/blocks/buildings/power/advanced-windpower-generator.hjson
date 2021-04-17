@@ -1,0 +1,16 @@
+type: SolarGenerator
+name: Advanced Wind Power Generator
+description: This generator produces power from wind.
+size: 2
+hasPower: true
+powerProduction: 0.6
+requirements: [
+ bronze/20
+ lead/45
+ worker/15
+ mc/75
+]
+category: power
+health: 100
+canOverdrive: false
+mapColor: ffff00

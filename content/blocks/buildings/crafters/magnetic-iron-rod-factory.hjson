@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: MagneticIronRod Factory
+description: This institution produces MagneticIronRod.
+health: 300
+size: 2
+hasItems: true
+craftTime: 300
+updateEffect: smeltsmoke
+itemCapacity: 30
+consumes:{
+ power: 0.8
+ items: {
+  items: [
+   iron-rod/1
+   charged-electrum/10
+  ]
+ }
+}
+requirements: [
+ low-machine-hull/1
+ 100mc/5
+ worker/25
+]
+category: crafting
+outputItem: magnetic-iron-rod/1
+canOverdrive: false
+mapColor: ffff00

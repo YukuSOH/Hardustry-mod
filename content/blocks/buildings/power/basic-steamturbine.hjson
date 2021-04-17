@@ -1,0 +1,38 @@
+type: SingleTypeGenerator
+itemDuration: 72000
+itemCapacity: 50
+liquidCapacity: 100
+name: BasicSteamTurnbine
+description: produces power from Steam.
+size: 2
+hasPower: true
+hasItems: false
+hasLiquids: true
+canOverdrive: false
+outputPower: true‬
+powerProduction: 8.0
+generateEffect: generatespark
+consumes:{
+ items: {
+  items: [
+   tin-rotor/1
+  ]
+ }
+ liquid: {
+  liquid: steam
+  amount: 0.4
+ }
+}
+requirements: [
+ low-machine-hull/1
+ integrated-logic-circuit/10
+ medium-bronze-pipe/20
+ tin-rotor/1
+ low-electric-motor/20
+ tin-wire/10
+ worker/25
+ 100mc/4
+]
+category: power
+health: 200
+mapColor: ffff00

@@ -1,0 +1,23 @@
+type:Drill
+name: Steel Drill
+description: Tier4 Drill.
+health: 300
+size:2
+hasPower: true
+hasLiquids: false
+craftTime: 4500
+tier: 4
+itemCapacity: 30
+drillTime: 4500
+consumes:{
+ power: 5.4
+}
+requirements: [
+  steel-drillpart/1
+  bronze/100
+  copper/100
+  100mc/8
+  worker/50
+]
+category: production
+mapColor: ffff00

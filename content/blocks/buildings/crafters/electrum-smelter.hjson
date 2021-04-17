@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Electrum Smelter
+description: This facility produces Electrum.
+health: 600
+size: 2
+hasItems: true
+craftTime:1080
+updateEffect: smeltsmoke
+itemCapacity: 16
+consumes:{
+ power: 5.4
+ items: {
+  items: [
+   coal/1
+   item-gold/1
+   silver/1
+  ]
+ }
+}
+requirements: [
+ bronze-hull/1
+ copper/100
+ mc/400
+ worker/20
+]
+category: crafting
+outputItem: electrum/2
+canOverdrive: false
+mapColor: ffff00

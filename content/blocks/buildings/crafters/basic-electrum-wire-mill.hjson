@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Electrum Cutter
+description: This facility produces ElectrumWire.
+health: 200
+size: 2
+hasItems: true
+craftTime: 145
+itemCapacity: 20
+consumes:{
+ power: 1.2
+ items: {
+  items: [
+   electrum/1
+  ]
+ }
+}
+requirements: [
+ low-electric-motor/40
+ tin-wire/20
+ integrated-logic-circuit/20
+ low-machine-hull/1
+ 100mc/5
+ worker/25
+]
+category: crafting
+outputItem: electrum-wire/2
+canOverdrive: false
+mapColor: ffff00

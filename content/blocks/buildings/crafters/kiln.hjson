@@ -1,0 +1,20 @@
+name: Kiln (Hardmode)
+health: 160
+craftTime:900
+itemCapacity: 10
+consumes:{
+ power: 0.4
+ items: {
+  items: [
+   sand/5
+   lead/5
+   coal/1
+  ]
+ }
+}
+requirements: [
+ bronze-hull/1
+ mc/400
+ worker/15
+]
+outputItem: metaglass/5

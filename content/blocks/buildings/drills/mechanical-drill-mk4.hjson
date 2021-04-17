@@ -1,0 +1,22 @@
+type:Drill
+name: Mechanical Drill Mk4
+description: Mechanical Drill Mk4 (Tier2 Drill)
+health: 160
+size:2
+hasPower: true
+hasLiquids: false
+craftTime: 988
+tier: 2
+itemCapacity: 40
+drillTime: 988
+consumes:{
+ power: 2.4
+}
+requirements: [
+ steel-plate/100
+ charged-electrum/20
+ 100mc/16
+ worker/400
+]
+category: production
+mapColor: ffff00

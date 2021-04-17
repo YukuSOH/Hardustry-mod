@@ -1,0 +1,6 @@
+type: material
+name: Galena
+description: Galena
+cost: 0.1
+hardness: 4
+color: e8e400
