@@ -2,7 +2,11 @@
 # Hardustry-mod
 Hardustry mod uses  gregtech as a reference.
 This mod makes Mindustry hard.
-
+## How to play Hardustry
+Hardustry doesn't support "Campaign". But you can play "CustomGame".  
+Step1: Select "CustomGame".  
+Step2: Select "examplemap1".  
+Step3: Push "Play".
 ## How to make Metaglass in this mod
 Step1: Produce Worker, Brass, and Bronze.  
 Step2: Build powergenerator, BronzeSmelter, and BronzeHullFactory.  
