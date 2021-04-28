@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: BasicCopperWireMill
-description: This facility produces CopperWire.
+name: Basic WireMill(CopperWire)
+description:  Produces CopperWire from Copper.
 health: 200
 size: 2
 hasItems: true

@@ -6,7 +6,7 @@ requirements: [
      mc/60
 ]
 health: 2400
-size:1
+size: 2
 category: defense
 craftTime: 160
 mapColor: ffff00

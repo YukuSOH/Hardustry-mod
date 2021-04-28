@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: Primitive Blast Furnace
-description: A building that produces steel.
+description: Refines Steel from Iron and Coke.
 health: 500
 size: 3
 hasItems: true

@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: VacuumTube Factory Mk2
+description: This facility produces VacuumTube.
+health: 300
+size: 2
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+itemCapacity: 40
+consumes:{
+ power: 0.8
+ items: {
+  items: [
+   fine-copper-wire/3
+   glass-tube/1
+  ]
+ }
+}
+requirements: [
+ low-machine-hull/1
+ steel-plate/20
+ 100mc/5
+ worker/25
+]
+category: crafting
+outputItem: vacuum-tube/1
+canOverdrive: false
+mapColor: ffff00

@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Electrum Cutter
-description: This facility produces ElectrumWire.
+name: Basic WireMill(ElectrumWire)
+description: Produces ElectrumWire from Electrum.
 health: 200
 size: 2
 hasItems: true

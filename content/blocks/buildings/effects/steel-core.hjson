@@ -5,7 +5,7 @@ itemCapacity: 12000
 hasItems: true
 health: 3000
 consumesPower:false
-unitCapModifier: 4
+unitCapModifier: 16
 size: 5
 requirements: [
  compressed-steel-plate/4000

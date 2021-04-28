@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Aluminum Plate Compresser
-description: This facility produces CompressedAluminumPlate.
+description: Compresses AluminumPlate into CompressedAluminumPlate.
 health: 300
 size: 2
 hasItems: true

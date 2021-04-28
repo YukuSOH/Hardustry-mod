@@ -6,7 +6,7 @@ size: 2
 hasItems: true
 craftTime: 300
 updateEffect: smeltsmoke
-itemCapacity: 30
+itemCapacity: 80
 consumes:{
  power: 0.4
  items: {

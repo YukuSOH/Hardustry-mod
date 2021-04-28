@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Resistor Factory Mk2
+description: This institution produces Resistor.
+health: 200
+size: 2
+hasItems: true
+craftTime: 300
+updateEffect: smeltsmoke
+itemCapacity: 40
+consumes:{
+ power: 0.8
+ items: {
+  items: [
+   fine-copper-wire/2
+   coal-powder/1
+  ]
+ }
+}
+requirements: [
+ low-machine-hull/1
+ steel-plate/40
+ 100mc/5
+ worker/20
+]
+category: crafting
+outputItem: resistor/1
+canOverdrive: false
+mapColor: ffff00

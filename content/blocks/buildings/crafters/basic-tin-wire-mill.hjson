@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: BasicTinWireMill
-description: This facility produces TinWire.
+name: Basic WireMill(TinWire)
+description: Produces TinWire from Tin.
 health: 200
 size: 2
 hasItems: true

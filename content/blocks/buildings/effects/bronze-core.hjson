@@ -5,7 +5,7 @@ itemCapacity: 8000
 hasItems: true
 health: 2000
 consumesPower:false
-unitCapModifier: 4
+unitCapModifier: 8
 size: 4
 requirements: [
  compressed-bronze-plate/1000

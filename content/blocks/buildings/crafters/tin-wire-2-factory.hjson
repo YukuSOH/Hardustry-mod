@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: x2TinWire Factory
+description: This facility produces x2TinWire.
+health: 200
+size: 2
+hasItems: true
+craftTime: 60
+itemCapacity: 40
+consumes:{
+ power: 0.8
+ items: {
+  items: [
+   tin-wire/2
+  ]
+ }
+}
+requirements: [
+ low-machine-hull/1
+ 100mc/5
+ worker/25
+]
+category: crafting
+outputItem: tin-wire-2/1
+canOverdrive: false
+mapColor: ffff00

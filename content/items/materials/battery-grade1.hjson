@@ -1,5 +1,5 @@
 type: material
-name: Battery Grade1
-description: Battery Grade1
+name: BasicBattery
+description: BasicBattery
 cost: 0.5
 color: ffa844

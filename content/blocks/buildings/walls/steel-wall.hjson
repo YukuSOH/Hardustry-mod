@@ -2,7 +2,7 @@ type:Wall
 name: Steel Wall
 description: Steel wall
 requirements: [
-     aluminum/20
+     steel/20
      mc/60
 ]
 health: 600

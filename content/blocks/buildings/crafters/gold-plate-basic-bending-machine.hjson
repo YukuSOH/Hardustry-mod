@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: BasicBendingMachine(GoldPlate)
+description: This facility produces GoldPlate.
+health: 200
+size: 2
+hasItems: true
+craftTime: 180
+updateEffect: smeltsmoke
+itemCapacity: 30
+consumes:{
+ power: 0.8
+ items: {
+  items: [
+   item-gold/1
+  ]
+ }
+}
+requirements: [
+ low-electric-piston/20
+ integrated-logic-circuit/20
+ low-machine-hull/1
+ low-electric-motor/20
+ tin-wire/10
+ 100mc/5
+ worker/25
+]
+category: crafting
+outputItem: gold-plate/1
+canOverdrive: false
+mapColor: ffff00

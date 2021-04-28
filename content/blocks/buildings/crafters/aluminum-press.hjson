@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Aluminum Press
-description: This Facility produces AluminumPlate.
+description: Compresses Aluminum into AluminumPlate.
 health: 300
 size: 2
 hasItems: true

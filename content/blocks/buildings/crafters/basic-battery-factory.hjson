@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: BatteryGrade1 Factor
-description: This institution produces BatteryGlade1.
+name: BasicBattery Factory
+description: Produces BasicBattery from Tin, Lead and CopperWire.
 health: 300
 size: 2
 hasItems: true
@@ -13,7 +13,7 @@ consumes:{
   items: [
    tin/5
    lead/10
-   copper/2
+   copper-wire/2
   ]
  }
 }

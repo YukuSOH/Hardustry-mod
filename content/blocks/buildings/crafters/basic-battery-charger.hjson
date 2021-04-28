@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Battery Grade1 Charger
-description: Battery Grade1 Charger
+name: BasicBattery Charger
+description: Charges BasicBattery.
 health: 300
 size: 2
 hasItems: true

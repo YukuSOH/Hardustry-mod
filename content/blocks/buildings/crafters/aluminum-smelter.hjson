@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: Aluminum Smelter
-description: This institution produces Aluminum.
+description: Smelts Bauxite into Aluminum.
 health: 500
 size: 2
 hasItems: true

@@ -26,6 +26,6 @@ requirements: [
  worker/20
 ]
 category: crafting
-outputItem: resistor/1
+outputItem: integrated-logic-circuit/1
 canOverdrive: false
 mapColor: ffff00

@@ -1,5 +1,5 @@
 type: GenericSmelter
-name: Furnace
+name: FireBrickFurnace
 description: This facility produces firebrick.
 health: 200
 size: 2

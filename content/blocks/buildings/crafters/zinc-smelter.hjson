@@ -22,6 +22,6 @@ requirements: [
  worker/15
 ]
 category: crafting
-outputItem: sphalerite/3
+outputItem: zinc/3
 canOverdrive: false
 mapColor: ffff00

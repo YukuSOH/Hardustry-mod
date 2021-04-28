@@ -1,6 +1,6 @@
 type: GenericSmelter
-name: Furnace
-description: This facility produces clay.
+name: CokeBrickFurnace
+description: This facility produces CokeBrick.
 health: 200
 size: 2
 hasItems: true
