@@ -1,5 +1,4 @@
 ![mdm](https://user-images.githubusercontent.com/80609135/114258418-4f3d6300-9a01-11eb-987d-a028b4859385.PNG)
-### [日本語](/README_JP.md)
 # Hardustry-mod
 HardustryはGregtechを参考にして作っています。  
 このmodは、Mindustryの難易度を上昇させます。
