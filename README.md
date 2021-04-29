@@ -1,6 +1,6 @@
 ![mdm](https://user-images.githubusercontent.com/80609135/114258418-4f3d6300-9a01-11eb-987d-a028b4859385.PNG)
+#### [日本語](/README_JP.md)
 # Hardustry-mod
-### [日本語](/README_JP.md)
 Hardustry mod uses  gregtech as a reference.
 This mod makes Mindustry hard.
 ## How to play Hardustry
